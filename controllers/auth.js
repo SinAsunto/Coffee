@@ -1,7 +1,6 @@
 const User = require('../models/user');
 const bcrypt = require('bcrypt');
-const { generateJWT } = require('../helpers/jwt');
-const { googleVerify } = require('../helpers/google-verify');
+const { generateJWT, googleVerify } = require('../helpers');
 
 const loginController = async (req, res) => {
     const { email, password } = req.body;

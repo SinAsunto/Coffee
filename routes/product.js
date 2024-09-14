@@ -8,7 +8,7 @@ const {
     updateProduct,
     deleteProduct
 } = require('../controllers/product');
-const { productExistsById, categoryExistsById } = require('../helpers/db-validators');
+const { productExistsById, categoryExistsById } = require('../helpers');
 
 const router = Router();
 

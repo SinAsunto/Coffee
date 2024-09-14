@@ -8,7 +8,7 @@ const {
     updateCategory,
     deleteCategory 
 } = require('../controllers/category');
-const { categoryExistsById } = require('../helpers/db-validators');
+const { categoryExistsById } = require('../helpers');
 
 const router = Router();
 
